@@ -1,7 +1,7 @@
-import MemoDetailPage from '@/pages/memo/MemoDetailPage.vue';
-import MemoWritePage from '@/pages/memo/MemoWritePage.vue';
+import MemoDetailPage from '@/pages/MemoDetailPage.vue';
+import MemoWritePage from '@/pages/MemoWritePage.vue';
 import { createRouter, createWebHistory } from 'vue-router';
-const MemoListPage = () => import('@/pages/memo/MemoListPage.vue');
+const MemoListPage = () => import('@/pages/MemoListPage.vue');
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
